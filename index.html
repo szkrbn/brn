@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>brn</title>
+    <style>
+        body {
+            background-color: #301C41;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Myriad Pro', sans-serif; /* Define a fonte Myriad Pro */
+        }
+
+        h1 {
+            margin-top: 0;
+        }
+
+        .my-image {
+            max-width: 320px; /* Defina o mesmo tamanho máximo da imagem anterior */
+            margin-top: 20px;
+            border-radius: 10px; /* Arredonda as bordas da imagem */
+        }
+
+        .my-button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #ffffff;
+            color: #000000;
+            border: 2px solid #ffffff;
+            cursor: pointer;
+            border-radius: 8px;
+            font-family: 'Myriad Pro', sans-serif; /* Define a fonte Myriad Pro */
+            width: 200px; /* Defina o mesmo tamanho do botão de vídeo */
+        }
+
+        .make-by-szk {
+            position: absolute;
+            bottom: 10px; /* Distância em relação ao fundo do body */
+            right: 10px; /* Distância em relação à direita do body */
+            font-size: 12px;
+            font-family: 'Myriad Pro', sans-serif; /* Define a fonte Myriad Pro */
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Myriad+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>for brn (vulgo porquinha)</h1>
+
+    <img class="my-image" src="https://i.pinimg.com/originals/b9/e6/93/b9e6933099ee4514ad77724b80c487d5.jpg" alt="Imagem de exemplo">
+
+    <h2>bota essa msica aqui o e depois vambora</h2>
+    <a href="https://www.youtube.com/watch?v=zE_rK8PX83Q" target="_blank">
+        <button class="my-button">clicka aqui pra msica</button>
+    </a>
+    
+    <button class="my-button" onclick="continuar()">vambora</button>
+
+    <p class="make-by-szk">Make by szk</p>
+
+    <!-- Outros elementos e conteúdo podem ser adicionados aqui -->
+
+    <script>
+        function continuar() {
+            window.location.href = "outra-pagina.html";
+        }
+    </script>
+</body>
+</html>

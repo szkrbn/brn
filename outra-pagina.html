@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Outra Página</title>
+    <style>
+        body {
+            background-color: #301C41;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Myriad Pro', sans-serif; /* Define a fonte Myriad Pro */
+        }
+
+        .my-image {
+            max-width: 320px; /* Defina o mesmo tamanho máximo da imagem da primeira página */
+            border-radius: 10px; /* Arredonda as bordas da imagem */
+            margin-bottom: 20px; /* Espaçamento inferior */
+        }
+
+        .my-button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #ffffff;
+            color: #000000;
+            border: 2px solid #ffffff;
+            cursor: pointer;
+            border-radius: 8px;
+            font-family: 'Myriad Pro', sans-serif; /* Define a fonte Myriad Pro */
+            width: 200px; /* Defina o mesmo tamanho do botão da primeira página */
+        }
+
+        .make-by-szk {
+            position: absolute;
+            bottom: 10px; /* Distância em relação ao fundo do body */
+            right: 10px; /* Distância em relação à direita do body */
+            font-size: 12px;
+            font-family: 'Myriad Pro', sans-serif; /* Define a fonte Myriad Pro */
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Myriad+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+    <img class="my-image" src="https://wallpapercave.com/wp/wp7683467.jpg" alt="Imagem de exemplo">
+
+    <button class="my-button" onclick="redirecionar()">clicka aq pro gatinho para de chora</button>
+
+    <p class="make-by-szk">Make by szk</p>
+
+    <script>
+        function redirecionar() {
+            window.location.href = "outra-pagina-texto.html";
+        }
+    </script>
+</body>
+</html>
